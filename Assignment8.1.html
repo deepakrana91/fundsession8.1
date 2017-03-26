@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Javascript Form</title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+    </head>
+    <body>
+     <div id="container">
+         <p id="heading">Enter the system</p>
+         <p id="head">It is necessary to login in Your account in order to sign up for a course.</p>
+         <div id="leftcolumn">
+     <p id="newuser">ARE YOU NEW?<span> REGISTER</span></p>
+
+     <form method="post" action="">
+         <input type="text"
+					class="text-field"
+					name="user-name"
+					placeholder="User name"
+					required="required"/>
+                    </br></br>
+                    <input type="text" class="text-field" name="User-email" placeholder="Email" required="required">
+                    </br></br>
+                    <input type="text" class="text-field" name="User-password" placeholder="Password" required="required">
+                    </br></br>
+                    <input type="text" class="text-field" name="User-password-confirm" placeholder="Confirm Password" required="required">
+                    </br></br>
+                    <input type="submit" class="submitbutton" id="registerbutton" value="Register">
+     </form>
+     </div>
+
+     <div id="rightcolumn">
+				
+				<p id="student">ALREADY A STUDENT? LOGIN</p>
+
+                <form method="post">
+					
+					<input type="text"
+					class="text-field"
+					name="user-name"
+					placeholder="User name"
+					required="required"
+					style="width: 340px"/>
+					
+					<br><br>
+					
+					<input type="password"
+					class="text-field"
+					name="user-password"
+					placeholder="Password"
+					required="required"
+					style="width: 340px"/>
+					
+					<br><br>
+                    <input type="checkbox"
+					name="remember-me"
+					id="remember-checkbox"/>
+					
+					<label for="remember-checkbox"
+					id="remember-me-label">Remember me?</label>
+
+                    <input type="submit" class="submitbutton" id="loginbutton" value="LOGIN">
+                    <p id=forgotpassword>Forgot Password?</p>
+     </div>
+
+     </div>
+     
+
+    
+
+    </body>
+</html>

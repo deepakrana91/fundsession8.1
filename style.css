@@ -1,0 +1,108 @@
+#container {
+            width: 800px;
+            height: 400px;
+            background-color:#eeeeee;
+}
+
+body{
+ font-family: Tahoma,sans-serif;
+}
+
+#heading {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 11px;
+    color:
+}
+
+#head {
+    font-size: 13px;
+    margin-left: 11px;
+    color: grey;
+}
+
+#leftcolumn {
+    position: absolute;
+}
+#newuser {
+    padding-left: 17px;
+    font-weight: bolder;
+    color: grey;
+    font-size: 16px;
+}
+
+#newuser span {
+    color:darkblue;
+}
+
+.text-field {
+    font-size: 13px;
+    padding: 5px;
+    margin: 2px;
+    width: 280px;
+    margin-left: 17px;
+}
+
+.submitbutton {
+margin-left: 195px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #234465;
+	border: 2px solid #234465;
+
+}
+
+#registerbutton:hover {
+    color: white;
+    background-color: #234465;
+}
+
+#rightcolumn {
+    height: 275px;
+	width: 390px;
+    margin-left: 380px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: #234465
+
+}
+
+#student {
+    color:white;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-left: 15px;
+    padding-top: 1px;
+}
+
+#remember-checkbox {
+    margin-left: 18px;
+}
+
+#loginbutton {
+    border: 2px solid orange;
+	background: #234465;
+	color: white;
+	float: right;
+	margin-right: 23px;
+	margin-top: -25px;
+}
+
+#loginbutton:hover {
+
+  color:#234465;
+  background-color: orange;
+}
+
+#forgotpassword {
+
+    color:white;
+    float: right;
+    font-size: 10px;
+    margin-right: 25px;
+    text-decoration: underline;
+}
